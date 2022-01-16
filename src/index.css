@@ -57,10 +57,9 @@ h1 {
 
 .carousel img {
   display: block;
-  height: 300px;
+  height: 500px;
   padding: 30px;
   margin: 40px;
-
   margin-left: auto;
   margin-right: auto;
 }
@@ -83,4 +82,20 @@ h1 {
 
 .zoom:hover {
   transform: scale(1.2);
+}
+
+.navbar_theme {
+  background-image: linear-gradient(
+    to left,
+    #466dfa,
+    #5c7cf3,
+    #0c30b4
+  ); /*#f79646  #43a2fb */
+
+  /*#f79646  #43a2fb */
+  /* background-image: linear-gradient(to right, #327acd , rgba(255,255,255,0), #204bda); */
+  height: 10%;
+  /* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite; */
 }

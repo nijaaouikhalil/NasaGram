@@ -5,7 +5,13 @@ import { LinkContainer } from "react-router-bootstrap";
 function Header() {
   return (
     <header>
-      <Navbar bg="dark" variant="dark" collapseOnSelect>
+      <Navbar
+        bg="primary"
+        variant="dark"
+        className="navbar_theme"
+        collapseOnSelect
+        expand="lg"
+      >
         <Container>
           <LinkContainer to="/">
             <Navbar.Brand href="/">NasaGram</Navbar.Brand>
@@ -15,9 +21,7 @@ function Header() {
           <Nav className="justify-content-end">
             <LinkContainer to="/favorites">
               <strong>
-                <i className="fab fa-gratipay btn btn-outline-light">
-                  Favorites
-                </i>
+                <i className="fab fa-gratipay btn">Favorites</i>
               </strong>
             </LinkContainer>
           </Nav>

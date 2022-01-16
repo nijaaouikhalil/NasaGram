@@ -68,7 +68,10 @@ function Post({ post }) {
 
           <Card.Text as="div">
             <div className="my-3">
-              <Button variant="outline-light" onClick={LikePosttHandler}>
+              <Button
+                variant="outline-light rounded-circle"
+                onClick={LikePosttHandler}
+              >
                 {post.likes ? (
                   <i style={{ color: "red" }} className="fas fa-heart"></i>
                 ) : (
