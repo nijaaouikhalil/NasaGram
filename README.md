@@ -2,6 +2,14 @@
 
 https://nasagraam.herokuapp.com/
 
+![alt-text](https://github.com/nijaaouikhalil/NasaGram/blob/main/src/constants/demo.gif "NasaGram Live demo")
+
+## Built with
+
+- ReactJs
+- Redux from state management
+
+
 ## Available Scripts
 
 In the project directory, you can run:
