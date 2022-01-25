@@ -6,8 +6,15 @@ https://nasagraam.herokuapp.com/
 
 ## Built with
 
-- ReactJs
-- Redux from state management
+- ReactJs with bootstrap
+- Redux for state management
+
+## Some of the demonstrated feautures: 
+
+- Image lazy loading
+- Skeleton loading
+- Infinite scroll
+- Async storage  
 
 
 ## Available Scripts
